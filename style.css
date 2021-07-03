@@ -1,0 +1,38 @@
+
+
+
+#header {
+    color:rgb(0, 225, 255);
+}
+
+.box {
+    border: 1px solid black;
+    font-family: "Comic Sans MS";
+}
+
+.info-box {
+    padding: 30px;
+    border: 1px solid black;
+    margin-top: 50px;
+    background-color: rgb(157, 230, 233);
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid blue;
+    background-color: white;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+

@@ -13,14 +13,22 @@
 .info-box {
     padding: 30px;
     border: 1px solid black;
-    margin-top: 50px;
+    margin-top: 20px;
     background-color: rgb(157, 230, 233);
+}
+
+body {
+    background-color: gold;
 }
 
 .grid-2 {
     display: grid;
     grid-template-columns: auto auto;
 
+}
+
+.marg {
+    margin: 10px;
 }
 
 .navbar {
